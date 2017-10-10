@@ -1,5 +1,6 @@
-language: R
-rvm:
- - 2.2
- - jruby
- - rbx-2
+language: r
+r:
+  - oldrel
+  - release
+  - devel
+warnings_are_errors: TRUE
