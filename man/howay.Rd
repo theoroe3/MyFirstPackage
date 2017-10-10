@@ -2,7 +2,7 @@
 % Please edit documentation in R/basic.R
 \name{howay}
 \alias{howay}
-\title{Function that uses div}
+\title{Function that used to use div}
 \usage{
 howay(x, y, z)
 }
