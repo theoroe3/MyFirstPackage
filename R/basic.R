@@ -14,7 +14,6 @@ check_numeric = function(x) all(is.numeric(x))
 #' add(5, 10)
 #' ## Can also use negative numbers
 #' add(-5, 10)
-#' add("A","B")
 add = function(x, y) {
   if(!check_numeric(c(x, y))) stop("Not numeric")
   x + y
@@ -48,9 +47,7 @@ minus = function(x,y){
   x - y
 }
 
-#' @importFrom nclRpackage div
-
-#' @title Function that uses div
+#' @title Function that used to use div
 #' @description divide then times
 #' @param x first number
 #' @param y second number
@@ -60,5 +57,5 @@ minus = function(x,y){
 #' howay(1,2,3)
 #' howay(3,2,1)
 howay = function(x,y,z){
-  div(x,y)*z
+  (x/y)*z
 }
