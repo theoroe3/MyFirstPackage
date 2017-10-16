@@ -57,5 +57,5 @@ minus = function(x,y){
 #' howay(1,2,3)
 #' howay(3,2,1)
 howay = function(x,y,z){
-  (x/y)*z
+  nclRpackage::div(x,y)*z
 }
