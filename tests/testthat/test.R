@@ -5,6 +5,6 @@ test_that(" x and y are numeric",{
   expect_equal(subtract(10,10), 0)
   expect_equal(minus(10,10), 0)
   expect_equal(howay(10,2,1), 5)
-  expec_equal(hello(), "Hello, world!")
+  expect_equal(hello(), "Hello, world!")
 }
 )
