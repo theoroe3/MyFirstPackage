@@ -11,7 +11,6 @@ LazyData: true
 RoxygenNote: 6.0.1
 Additional_repositories: http://rcourses.github.io/drat/
 Imports: nclRpackage
-Suggests: knitr,
-    testthat,
+Suggests: testthat,
     covr
 VignetteBuilder: knitr
