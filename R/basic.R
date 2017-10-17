@@ -47,16 +47,16 @@ minus = function(x,y){
   x - y
 }
 
-#' @title Function that used to use div
+#' @importFrom nclRpackage div
+#' @title Function that uses div
 #' @description divide then times
 #' @param x first number
 #' @param y second number
 #' @param z third number
-#' @export
-#' @import nclRpackage
 #' @examples
-#' howay(1,2,3)
+#' howay(1,2,4)
 #' howay(3,2,1)
+#' @export
 howay = function(x,y,z){
   div(x,y)*z
 }

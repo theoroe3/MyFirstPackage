@@ -2,7 +2,7 @@
 % Please edit documentation in R/basic.R
 \name{howay}
 \alias{howay}
-\title{Function that used to use div}
+\title{Function that uses div}
 \usage{
 howay(x, y, z)
 }
@@ -17,6 +17,6 @@ howay(x, y, z)
 divide then times
 }
 \examples{
-howay(1,2,3)
+howay(1,2,4)
 howay(3,2,1)
 }
